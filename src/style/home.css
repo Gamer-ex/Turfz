@@ -1,0 +1,112 @@
+#bgimg{
+    width: 100%;
+    position: relative;
+}
+#bgImg img{
+    width: 100%;
+}
+#homenav{
+    position:absolute;
+    top: 1em;
+    left: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    border: 0px solid white;
+}
+#navLogo img{
+    width: 75%;
+}
+#loginSignupBtn img{
+    width: 80%;
+    cursor: pointer;
+}
+#homeTxt{
+    border: 0px solid white;
+    width: 90%;
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    top: 2em;
+    left: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+}
+#homeBody{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#ballImg{
+    width: 45%;
+    border: 0px solid black;
+}
+#ballImg img{
+    width: 60%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#ballingText{
+    border: 0px solid black;
+    width: 50%;
+    display: grid;
+    gap: 20px;
+}
+#bodyheading{
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+#bodyHeading2{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    width: 80%;
+}
+#loginBtn{
+    width: 25%;
+    height: 35px;
+    border: none;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+#loginBtn:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#footer{
+    background-color: black;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#footerText{
+    border: 0px solid white;
+    color: white;
+    font-size: 30px;
+    width: 65%;
+    text-align:center;
+    font-weight: bolder;
+}
+#icons{
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid white;
+    width: 100%;
+}
+#iconsContainer{
+    border: 0px solid white;
+    width: 10%;
+}

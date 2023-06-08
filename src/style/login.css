@@ -1,0 +1,59 @@
+#loginBg{
+    width: 40%;
+    margin: auto;
+    position: relative;
+}
+#loginBg img{
+    width: 100%;
+}
+#loginform{
+    border: 0px solid black;
+    width: 20%;
+    position: absolute;
+    top: 10em;
+    left: 35em;
+    padding: 30px;
+    background-color: #cccccc;
+    opacity:90%;
+    display: grid;
+    gap: 10px;
+}
+#headingLogin{
+    font-size: 40px;
+    font-weight: Bold;
+    text-align: center;
+    color: black;
+}
+#username,#password{
+    font-weight: bold;
+    font-size: 15px;
+    color: red;
+}
+#loginFormBtn{
+    width: 50%;
+    margin: auto;
+    color: white;
+    background-color: red;
+}
+#loginwithBtn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    border: 0px solid black;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+#glogo{
+    width: 10%;
+}
+#glogo img{
+    width: 100%;
+}
+#gtext{
+   color: black;
+}

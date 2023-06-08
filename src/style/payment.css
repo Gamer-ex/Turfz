@@ -1,0 +1,45 @@
+#paymentNav{
+    border: 0px solid black;
+    color: white;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#BookedTurfName{
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+}
+#paymentContainerBox{
+    background-image: url(../images/paymentBg.png);
+    background-size:90% 100vh;
+    height: 100vh;
+    margin-top: 20px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#paymentMode{
+    border: 0px solid blue;
+    width: 25%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 400px;
+    background-color: #a88787;
+    opacity: 90%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-weight: bold;
+}
+#bookingsDetails{
+    width: 50%;
+    margin: auto;
+    font-size:25px;
+    font-weight: bold;
+}
